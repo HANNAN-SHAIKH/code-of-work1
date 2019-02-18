@@ -1,0 +1,11 @@
+var king=function(num){
+    if(num==0){
+        console.log(0);
+    }
+    else
+        var sum=1;
+    for(var i=1;i<=num;i=i+1){
+        sum=sum*i;
+    }
+    console.log(sum);
+};
