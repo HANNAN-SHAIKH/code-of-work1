@@ -1,0 +1,15 @@
+var fibo=function(num){
+	var f1=1;
+	var f2=0;
+	var sum=0;
+	console.log(0);
+	console.log(1);
+	for(var i=0;i<num;i=i+1)
+	{
+	
+		sum=f1+f2;
+		console.log(sum);
+		f2=f1;
+		f1=sum;
+	}
+};
